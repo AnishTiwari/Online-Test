@@ -1,0 +1,8 @@
+session storage in javascript....
+		
+		sessionStorage.setItem('rollno', JSON.stringify(x));
+     	var temp = sessionStorage.getItem('rollno');
+//getting the value in php
+     	echo"<script>var temp = sessionStorage.getItem('rollno');</script>";
+		echo"<script>alert('Welcome to online MCQ test ' + temp);</script>";
+...............................................................................................
